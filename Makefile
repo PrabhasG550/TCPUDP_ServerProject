@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall
-PORT = 9999
+PORT = 9998
 
 build: echo_s echo_c log_s
 
