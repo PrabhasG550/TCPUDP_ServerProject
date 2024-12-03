@@ -1,6 +1,3 @@
-//Prabhas Gade - pxg220068 CS3377
-//log server code
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>

@@ -1,6 +1,3 @@
-//Prabhas Gade - pxg220068 CS3377
-//echo server code
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -139,7 +136,7 @@ int main(int argc, char *argv[]) {
     struct sockaddr_in log_server_addr;
     log_server_addr.sin_family = AF_INET;
     log_server_addr.sin_addr.s_addr = INADDR_ANY; 
-    log_server_addr.sin_port = htons(9999); // connects to 9999
+    log_server_addr.sin_port = htons(9949); // Log server port from previous implementation
 
     // Client sockets array
     int client_sockets[MAX_CLIENTS] = {0};
