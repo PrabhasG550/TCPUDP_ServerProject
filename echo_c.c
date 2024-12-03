@@ -1,3 +1,6 @@
+//Prabhas Gade - pxg220068 CS3377
+//echo client code
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -13,8 +16,8 @@ typedef enum {
 } ProtocolType;
 
 void print_usage(char *program_name) {
-    fprintf(stderr, "Usage: %s <server_ip> <port> <protocol>\n", program_name);
-    fprintf(stderr, "Protocol can be 'tcp' or 'udp'\n");
+    printf( "Usage: %s <server_ip> <port> <protocol>\n", program_name);
+    printf( "Protocol can be 'tcp' or 'udp'\n");
 }
 
 int main(int argc, char *argv[]) {
