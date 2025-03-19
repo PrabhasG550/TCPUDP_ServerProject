@@ -1,4 +1,4 @@
-CS3377 Assignment 7 - Socket Programming
+TCP and UDP Socket Programming
 Prabhas Gade
 
 Build Commands:
