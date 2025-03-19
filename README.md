@@ -1,4 +1,4 @@
-TCP and UDP Socket Programming
+TCP/UDP Socket Programming
 Prabhas Gade
 
 Build Commands:
@@ -30,9 +30,9 @@ Execution Commands:
 5. cat echo.log
     - displays all logs
 
-Assignment Summary:
+Project Summary:
 
-This assignment involves creating a system of clients and servers that communicate through a chain.
+This Project involves creating a system of clients and servers that communicate through a chain.
 The echo_c client sends messages to the echo_s server, which sends a message back to the client as 
 confirmation. The echo_s server then acts as a client and sends formatted log messages to the log_s server with
 every new message. The log_s server inputs these messages into a file, echo.log, and prints it. 
